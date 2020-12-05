@@ -5,7 +5,10 @@
 
 @font-face{
    font-family: 'poppins-EB';
-   src: url('../fonts/Poppins-ExtraBold.ttf');
+   src: url('../fonts/Poppins-SemiBold.ttf');
+}
+.fa, .fas, .fab, far{
+   font-weight: 900 !important;
 }
 
 body {
@@ -30,9 +33,9 @@ a {
    color: #ffffff;
    text-decoration: none;
 }
-h2{
+.logo{
    font-family: 'poppins-EB' sans-serif;
-   font-size: 40px;
+   font-weight: 900;
 }
 .navbar {
    color: #ffffff;
@@ -54,11 +57,16 @@ h2{
    width: 300px;
    background: #1A004F;
    position: fixed;
+   left: -100%;
    overflow: auto;
    z-index: 10;
    display: flex;
    flex-direction: column;
    color: #fff;
+   transition: 0.3s;
+}
+.show-sidebar{
+   left: 0px;
 }
 .overlay{
    position: fixed;
@@ -96,6 +104,4 @@ h2{
 }
 .nav-items{
    padding: 10px;
-   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-   border-top: 1px solid rgba(0, 0, 0, 0.5);
 }
