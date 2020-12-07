@@ -20,6 +20,7 @@ $(document).ready(function() {
   });
   $(".fa-eye-slash").click(function() {
     $(this).toggleClass("fa-eye");
+    $(this).attr('data', 'danger');
     $(this).toggleClass("fa-eye-slash");
     if ($("#password").attr("type") === "password") {
       $("#password").attr("type", "text");
