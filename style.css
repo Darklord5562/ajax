@@ -196,15 +196,15 @@ span[data="grey"]{
 .forms {
    position: absolute;
    width: 300px;
-   text-align: center;
-   justify-content: center;
    padding: 20px;
    border: 1px solid #C4C4C4;
-   border-radius: 10px;
+   border-radius: 20px;
    top: 50%;
    left: 50%;
    transform: translate(-50%, -50%);
+   text-align: center;
 }
+
 .mt-05{
    margin-top: 5px;
 }
@@ -223,8 +223,7 @@ span[data="grey"]{
 }
 .links{
    display: flex;
-   text-align: left;
-   justify-content: space-around;
+   justify-content: space-between;
 }
 .link{
    color: #0374FF;

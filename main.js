@@ -29,35 +29,3 @@ $(document).ready(function() {
     }
   });
 });
-
-
-
-
-
-
-/*
-   $(".menu-toggle").click(function() {
-    $(".sidebar").addClass("show-sidebar");
-    $("#overlay").toggleClass("overlay");
-  });
-  $("#overlay").click(function() {
-    $(this).toggleClass("overlay");
-    $(".sidebar").removeClass("show-sidebar");
-    $(".notice").toggleClass("display-none");
-  });
-
-  $("#tgl-sidebar").click(function() {
-    $("#sidebar").toggleClass("show-sidebar");
-    $("#overlay").toggleClass("overlay");
-  });
-  $(".fa-eye-slash").click(function() {
-    $(this).toggleClass("fa-eye");
-    $(this).toggleClass("fa-eye-slash");
-    if ($("#password").attr("type") === "password") {
-      $("#password").attr("type", "text");
-    } else {
-      $("#password").attr("type", "password");
-    }
-  });
-
-*/
