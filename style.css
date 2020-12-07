@@ -236,3 +236,7 @@ span[data="grey"]{
    position: relative;
    z-index: 200;
 }
+.inps-grp{
+   display: flex;
+   gap: 10px;
+}

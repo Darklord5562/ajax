@@ -1,1 +1,17 @@
 <span data="grey" class="hint fa fa-info-circle"></span>
+
+
+
+
+<div class="inps">
+            <input type="password" name="password" id="password" required autocomplete="off" />
+            <span class="placeholder">Password</span>
+            <span class="hint fa fa-eye-slash"></span>
+         </div>
+         
+         
+         
+          <div class="inps">
+            <input type="text" name="name" id="name" required autocomplete="off" />
+            <span class="placeholder">E mail or Mobile</span>
+         </div>
