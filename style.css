@@ -169,10 +169,15 @@ span[data="blue"]{
 span[data="grey"]{
    color: #737373;
 }
+.grey{
+   color: #737373;
+}
+
 .hint {
    position: absolute;
    right: 20px;
-   top: 24px;
+   font-size: 15px;
+   top: 27px;
 }
 
 .inps input:focus,

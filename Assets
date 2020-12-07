@@ -15,3 +15,16 @@
             <input type="text" name="name" id="name" required autocomplete="off" />
             <span class="placeholder">E mail or Mobile</span>
          </div>
+         
+         
+         
+         <div class="inps-grp">
+            <div class="inps">
+               <input type="text" name="name" id="name" required autocomplete="off" />
+               <span class="placeholder">Mobile</span>
+            </div>
+            <div class="inps">
+              <input type="text" name="name" id="name" required autocomplete="off" />
+               <span class="placeholder">Mobile</span>
+            </div>
+         </div>
