@@ -28,4 +28,4 @@ $(document).ready(function() {
       $("#password").attr("type", "password");
     }
   });
-});
+
